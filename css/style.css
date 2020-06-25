@@ -1,0 +1,10 @@
+*{
+margin-left: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+div{
+  position: relative;
+  display: inline-block;
+}
