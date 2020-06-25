@@ -15,10 +15,6 @@ div{
   display: inline-block;
 }
 
-.product:hover .cuore{
- display: block;
-}
-
 .sconto{
   background-color: green;
   width: 40px;
@@ -54,6 +50,8 @@ div{
   display: none;
 }
 
-/* .cuore:hover{
+.product:hover .cuore,
+.product:active .cuore,
+.product:focus .cuore{
   display: block;
-} */
+}
